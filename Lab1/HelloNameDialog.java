@@ -1,10 +1,12 @@
-// Example 2: FirstDialog.java
+// Example 3: HelloNameDialog.java
 
 import javax.swing.JOptionPane;
 
 public class HelloNameDialog {
 public static void main(String[] args) {
-	JOptionPane.showMessageDialog(null, "Hello world! How are you?");
+	String result;
+	result = JOptionPane.showInputDialog("Please enter your name:");
+	JOptionPane.showMessageDialog(null, "Hi "+ result + "!");
 	System.exit(0);
 }
 }
