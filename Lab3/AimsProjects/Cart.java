@@ -22,6 +22,12 @@ public class Cart {
             addDigitalVideoDisc(dvd);
         }
     }
+  // Phương thức được nạp chồng để thêm một số lượng tùy ý DVD vào giỏ hàng (sử dụng varargs)
+  /*  public void addDigitalVideoDisc(DigitalVideoDisc... dvds) {
+        for (DigitalVideoDisc dvd : dvds) {
+            addDigitalVideoDisc(dvd);
+        }
+    }    */
 
      // Phương thức được nạp chồng để thêm hai DVD vào giỏ hàng
     public void addDigitalVideoDisc(DigitalVideoDisc dvd1, DigitalVideoDisc dvd2) {
