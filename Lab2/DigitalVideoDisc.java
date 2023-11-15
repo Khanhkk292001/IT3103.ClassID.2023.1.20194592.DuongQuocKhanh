@@ -45,6 +45,10 @@ public class DigitalVideoDisc {
     public String getTitle() {
         return title;
     }
+    // Phương thức setter
+    public void setTitle(String title) {
+    	this.title = title;
+    	    }
 
     // Phương thức getter để lấy giá trị của thuộc tính category
     public String getCategory() {
