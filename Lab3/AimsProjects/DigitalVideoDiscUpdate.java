@@ -1,7 +1,7 @@
 // Dương Quốc Khánh - 20194592
 package Week2;
 
-public class DigitalVideoDisc {
+public class DigitalVideoDiscUpdate {
     private static int nbDigitalVideoDiscs = 0; // Thuộc tính lớp
     private int id; // Thuộc tính đối tượng
     private String title;
