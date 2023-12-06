@@ -1,3 +1,3 @@
 # OOP Lab
-Trinh Giang Nam 20215229
+Duong Quoc Khanh 20194592
 
